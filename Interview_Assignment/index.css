@@ -1,0 +1,109 @@
+.banner{background: url("images/blog.jpg") no-repeat 0px 0px; min-height: 100vh; background-size: cover; position: relative;}
+.dot-background{background: rgba(0, 0, 0, 0.59); min-height: 100vh;-webkit-background-size: 2px;}
+.logo img{width: 60px; height: 60px; float: left;}
+.logo{position: absolute; top: 15px;}
+.logo p{display: inline-block; position: absolute; top: 10px; font-family: "Calibri Light", sans-serif; color: rgba(227, 227, 227, 0.89); font-size: 2.0em; letter-spacing: 1px; margin-left: 5px;}
+.header-nav{float: right; position: relative;  margin-top: 20px;}
+.header-nav .icon {display: none;font-size: 18px;font-weight: bold;}
+@media screen and (max-width: 600px) {
+    .header-nav a:not(:first-child) {display: none;}
+    .header-nav a.icon {float: right;display: block;}}
+@media screen and (max-width: 600px) {
+    .header-nav.responsive {position: relative;}
+    .header-nav.responsive .icon {position: absolute;right: 0;top: 0;}
+    .header-nav.responsive a {float: none;display: block;text-align: center; font-size: 1.0em;}}
+.header-nav a{font-size: 1.5em; color: white; padding: 20px;}
+.header-nav a:hover{text-decoration: none; color: white; border-bottom: 4px solid darkred;}
+.header-nav button:hover{background: rgba(163, 49, 40, 0.85); border: 1px solid rgba(163, 49, 40, 0.85);}
+.header-nav button{font-size: 1.5em; padding: 10px; border: 1px solid white; border-radius: 5px; background: transparent; color: white; width: 150px;}
+
+
+.left-section{margin-top: 200px; color: white; text-align: center;}
+.left-section h3{font-weight: 600; font-size: 2.1em;}
+.left-section p{font-size: 1.5em; font-family: "Calibri Light",sans-serif; margin-top: 35px;}
+.left-section button{padding: 15px; border: 2px solid #44eec4; border-radius: 30px; background: transparent; letter-spacing: 1px; font-size: 1.2em; margin-top: 40px;}
+.left-section button:hover{background: rgba(2, 2, 12, 0.53); border: none;}
+
+.right-section{padding: 30px; text-align: center; background: rgba(0, 0, 0, 0.6); margin-top: 100px; border-radius: 10px;}
+.right-section h1{color: white; margin-bottom: 30px;}
+.right-section p{color: white; font-size: 1.5em; margin-bottom: 40px;}
+.right-section table{border: none;}
+.right-section td{border-top: none !important;}
+.right-section input{background: transparent; width: 300px; margin-left: 98px; height: 40px; margin-bottom: 10px;}
+@media screen and (max-width: 600px){.right-section input{margin-left: 33px;}}
+.right-section input::placeholder{letter-spacing: 1px; color: rgba(171, 171, 171, 0.56); font-family: "Calibri Light", sans-serif;}
+.right-section input[type=submit]{margin-left: 0; background: #2aabd2; font-size: 1.5em; height: 40px;}
+
+/*====================================2nd Section================================*/
+.section2{text-align: center; padding-bottom: 40px; background: url("images/features_bkg.jpg")lightblue;}
+.section2 i{margin-top: 60px; border-radius: 50%;font-size: 2.1em; border: 1px solid black; padding: 20px; background: black; color: white;}
+.section2 i:hover{background: white; color: orangered;}
+.section2 h2{color: #000000; padding-top: 40px;font-family: "Calibri Light", sans-serif;font-weight: 400; font-size: 3em; letter-spacing: 2px;}
+.section2 h3{color: #000000;}
+
+/*====================================3rd Section================================*/
+.section3 img{width: 300px; height: 150px; padding-left: 60px; margin-top: 50px;}
+.section3 {text-align: center; padding-bottom: 50px;}
+.section3 h3{padding-top: 40px;font-family: "Calibri Light", sans-serif;font-weight: 400; letter-spacing: 2px; font-size: 3em;}
+
+/*====================================Footer================================*/
+footer{width: 100%; height: auto; padding-top: 40px; padding-bottom: 40px; background: rgba(0, 0, 0, 0.93);}
+.section4 a{padding: 10px; font-size: 1.2em;}
+.section4 a:hover{text-decoration: none;}
+.section4 p{font-size: 0.9em; margin-top: 10px; color: white; margin-left: 20px;}
+.section4 input{width: 70%; border-radius: 0 !important;}
+.section4 button{position: absolute; top: 0; right: 6px; width: 30%; border-radius: 0 !important; background: #313331; color: white;}
+@media screen and (max-width: 600px){.section4 .col-md-4{margin-top: 30px; text-align: center;}}
+
+.fa {padding: 10px!important;font-size: 25px!important;width: 48px;text-align: center;text-decoration: none;border-radius: 50%;margin-left: 10px;}
+.fa-facebook, .fa-twitter, .fa-google, .fa-linkedin {background: rgba(155, 155, 155, 0.92);color: black;}
+.fa-facebook:hover{background: #3B5998; color: white;}
+.fa-twitter:hover {background: #55ACEE;color: white;}
+.fa-google:hover {background: #dd4b39;color: white;}
+.fa-linkedin:hover {background: #007bb5;color: white;}
+
+#scrollTop {display: none;position: fixed;bottom: 20px;right: 30px;z-index: 99; padding: 10px; padding-top: 5px;border-radius: 50%; width: 50px; height: 50px; border: 2px solid #4fc9f3;background-color: #4fc9f3; text-align: center; color: #fdfffe;cursor: pointer;font-size: 30px;}
+#scrollTop:hover {color: white; background: #337f9d; border: 2px solid #337f9d;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================Login Modal Style=============*/
+.modal-content {background-color: rgb(213, 214, 213); margin: auto; padding: 20px; border: 1px solid #888; width: 40%; text-align: center;}
+.modal {display: none; position: fixed; z-index: 1; padding-top: 180px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4);}
+@media screen and (max-width: 600px) {
+    .modal{display: none; width: 100%; height: auto; position: fixed; text-align: center!important;}
+    .modal-content{width: 100%; height: auto;padding: 0; padding-top: 20px;}
+    .modal-content input{width: auto!important; display: block;}
+    .modal-content input[type=checkbox]{display: inline-block; margin-left: 0!important;}
+    .modal-content button{width: auto!important;}
+    .modal-content a{margin-top: -10px!important; text-align: center!important;}}
+.close {color: #111111; float: right; font-size: 28px; font-weight: bold;}
+.close:hover, .close:focus {color: #000; text-decoration: none; cursor: pointer;}
+.modal-content i{font-size: 35px; padding: 10px; border-radius: 50%; background-color: rgba(23, 23, 28, 0.63); color: white;}
+.modal-content input {width: 50%; margin-left: 25%; background-color: rgba(250, 250, 250, 0.84); margin-top: 6px; text-align: left;}
+.modal-content h4{font-family: "Segoe UI Light", sans-serif; font-weight: bolder; font-size: 25px;}
+.modal-content label{margin-left: -35%; margin-bottom: 0; margin-top: 10px;}
+.modal-content input::placeholder{color: #93949a; text-align: left;}
+.modal-content button{margin-top: 20px; width: 20%; font-size: 1.2em; padding: 10px; padding-top: 3px;}
+.modal-content .btn-primary{background: #2aabd2; border: 2px solid #2aabd2;}
+.modal-content .btn-primary:hover{background: #2aabd2; border: none;}
+.modal-content .btn-danger{background: rgba(163, 49, 40, 0.85);}
+.modal-content .btn-danger:hover{background: rgba(163, 49, 40, 0.85); border: none;}
+.modal-content p{margin-top: 10px; color: #595959; font-size: 0.8em;}
+.para{margin-top: 0 !important; font-size: 1.1em !important; font-family: "Calibri Light",sans-serif;}
+.modal-content label{color: rgba(0, 4, 66, 0.99);}
+.modal-content a{color: rgba(41, 153, 222, 0.77); text-decoration: none!important; border: none; margin-right: 0; padding: 0; background: none;}
+.modal-content a:hover{text-decoration: none; background: none; border-bottom: none!important; color: #1c8dd2 !important;}
+form span{color: red;}
+

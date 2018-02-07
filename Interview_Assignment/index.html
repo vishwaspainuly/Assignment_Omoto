@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Omoto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="dot-background">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/omoto_logo.png">
+                    <P>Omoto</P>
+                </div>
+                <nav class="header-nav" id="myTopnav">
+                    <a href="#">Product</a>
+                    <a href="#">Academy</a>
+                    <a href="#">About Us</a>
+                    <button type="submit" id="myBtn">Sign In</button>
+                    <a href="javascript:void(0);" class="icon" onclick="myNav()">&#9776;</a>
+
+                    <!--=========Modal Starts==========-->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content"><span class="close">&times;</span>
+                            <i class="glyphicon glyphicon-user"></i>
+                            <h4>Login to Omoto</h4>
+                            <p class="warning-text"><span style="color: darkred">(Care:</span> Username and password are case sensitive.)</p>
+
+                            <form method="post">
+                                <div>
+                                    <label>Username<span>*</span></label>
+                                </div>
+                                <input type="text" class="form-control" id="username"  placeholder="Username" required>
+
+                                <div>
+                                    <label>Password<span>*</span></label>
+                                </div>
+                                <input type="password" class="form-control" id="password"  placeholder="Password" required>
+
+                                <button class="btn btn-primary form-control" type="submit">Login</button>
+                                <button class="btn btn-danger form-control" type="reset">Reset</button>
+                            </form>
+
+                            <p><a href="#">New User ? Register Here</a></p>
+                            <p><a href="#">Forget Password</a></p>
+
+                        </div>
+                    </div>
+                    <!--=========Modal Ends==========-->
+                </nav>
+            </div>
+
+            <div>
+                <div class="container">
+                    <div class="col-md-6 left-section">
+                        <h3>Omni-channel NPS &reg; Solution for  All Businesses!</h3>
+                        <p>Measure, monitor, and manage customer loyalty using the leading customer experience metric – Net Promoter Score &reg;</p>
+                        <button>Starting Measuring NPS</button>
+                    </div>
+                    <div class="col-md-6 right-section">
+                        <h1>Register Yourself!</h1>
+                        <p>Please provide the below details and we’ll get you signed up in no time.</p>
+                        <form>
+                            <table class="table table-responsive">
+                                <tr>
+                                    <td>
+                                        <input type="text" class="form-control" title="Full Name" placeholder="Full Name" maxlength="20" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="email" class="form-control" title="Email" placeholder="Your Email" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="number" class="form-control" title="Mobile" placeholder="Your Mobile" maxlength="10" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="Register Now" class="form-control btn btn-primary">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===========================2nd Section============================-->
+
+    <div class="section2">
+        <div class="container">
+            <h2>Our Awesome <span style="font-weight: bold;letter-spacing: 1px">features</span></h2>
+
+            <div class="col-md-6">
+                <div>
+                    <i class="glyphicon glyphicon-comment"></i>
+                    <h3>Omni-channel feedback</h3>
+                    <p>Get feedback via SMS, Email, In-store tabs, Mobile app, website, or push data to Omoto via our API</p>
+                </div>
+                <div>
+                    <i class="glyphicon glyphicon-phone"></i>
+                    <h3>Realtime escalation notification</h3>
+                    <p>Helps you take quicker action on unhappy customers - so you can convert them to your Promoters.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <i class="glyphicon glyphicon-user"></i>
+                    <h3>Never miss your Customer’s voice</h3>
+                    <p>Stay up to date with regular updates that keep you on top of your customer's expectations.</p>
+                </div>
+                <div>
+                    <i class="glyphicon glyphicon-equalizer"></i>
+                    <h3>Insight focused analysis</h3>
+                    <p>Easily idenitfy your Promoters and Detractors, and their reasons too.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===========================3rd Section============================-->
+    <div class="section3">
+        <div class="container">
+            <h3>Some of <span style="font-weight: 700;letter-spacing: 1px">our partners</span></h3>
+            <marquee scrollamount="15" onMouseOver="this.stop()" onMouseOut="this.start()">
+                <img src="images/global.png">
+                <img src="images/sparsh-slider-logo.png">
+                <img src="images/lifespan_logo.png">
+                <img src="images/kairali_logo.png">
+            </marquee>
+        </div>
+    </div>
+
+    <!--===========================Footer============================-->
+    <div class="section4">
+        <footer>
+            <div class="container">
+                <div class="col-md-4">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Help</a>
+                    <p>&copy; Copyright 2018 <a href="#">Omoto</a> All Rights Reserved</p>
+                </div>
+                <div class="col-md-4" style="text-align: center">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <input type="email" placeholder="Your E-mail Address" class="form-control" required>
+                        <button class="form-control" type="submit">SUBSCRIBE</button>
+                        <p>Join our Newsletter subscription. <span style="color: #346fdc;">be always informed</span></p>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <button onclick="topFunction()" id="scrollTop" title="Go to top"><i class="glyphicon glyphicon-chevron-up"></i></button>
+
+
+
+
+
+
+
+<script>
+    function myNav() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "header-nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "header-nav";
+        }
+    }
+
+    /*===================Scroll To Top Button================*/
+
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            document.getElementById("scrollTop").style.display = "block";
+        } else {
+            document.getElementById("scrollTop").style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    //===================Login Modal===================//
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+
+    btn.onclick = function()
+    {
+        modal.style.display = "block";
+    }
+    span.onclick = function()
+    {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event)
+    {
+        if (event.target == modal)
+        {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
+</body>
+</html>
